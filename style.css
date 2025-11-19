@@ -1,6 +1,7 @@
-/* j'écris dans les accolade la propriété  */
+/* j'écris dans les accolade les attribut */
 p {
     color: red;
+    text-align: center;
 }
 
 h1 {
