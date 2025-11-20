@@ -3,8 +3,8 @@ p {
     color: #A0522D;
     background-color: #FFD700;
     border: 2px solid ;
-    border-radius: 20px;
-     text-align: center;
+    border-radius: 2em;
+    text-align: center;
 }
 
 h1 {
@@ -17,23 +17,27 @@ h5 {
 
 ol {
     color: #FA8072;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 /* Pour sélectionner une classe sur css on débute par un point (.) ensuite on met le nom de la classe.
 Par exemple içi je séléctionne la classe rsma.*/
 .rsma {
     color: blue;
-     font-size: 20px;
+    font-size: 1.5em;
+    Font-family: 'Oswald', sans-serif;
+    font-style: italic
 }
 
 body {
-    Font-family: Roboto;
+    Font-family: 'Caveat', sans-serif;
     background-color: #FFE4B5;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 40px;
+    text-decoration: underline;
 }
 
 #ht {
