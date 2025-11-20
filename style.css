@@ -24,12 +24,18 @@ ol {
 Par exemple içi je séléctionne la classe rsma.*/
 .rsma {
     color: blue;
+     font-size: 20px;
 }
 
 body {
     Font-family: Roboto;
+    background-color: #FFE4B5;
 }
 
 h3 {
     font-size: 40px;
+}
+
+#ht {
+    font-size: 45px;
 }
