@@ -1,17 +1,35 @@
 /* j'écris dans les accolade les attribut */
 p {
-    color: red;
-    text-align: center;
+    color: #A0522D;
+    background-color: #FFD700;
+    border: 2px solid ;
+    border-radius: 20px;
+     text-align: center;
 }
 
 h1 {
     color: green;
 }
 
-h4 {
-    color: aqua;
+h5 {
+    color: #A9A9A9;
 }
 
 ol {
-    color: brown;
+    color: #FA8072;
+    font-size: 30px;
+}
+
+/* Pour sélectionner une classe sur css on débute par un point (.) ensuite on met le nom de la classe.
+Par exemple içi je séléctionne la classe rsma.*/
+.rsma {
+    color: blue;
+}
+
+body {
+    Font-family: Roboto;
+}
+
+h3 {
+    font-size: 40px;
 }
