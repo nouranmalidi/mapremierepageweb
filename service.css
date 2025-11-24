@@ -1,0 +1,24 @@
+/*div est un sélecteur color est la propriété et la valeur est red ; color:red se nomme une instruction*/
+/*La couleur du texte sera rouge et le la couleur d'arrière plan sera aquamarine*/
+div {
+    color: red;
+    background-color: maroon;
+    border: solid;
+}
+
+#divDouble {
+border: double;
+color: blue;
+}
+
+#divDotted {
+    border: dotted;
+    color: yellow;
+}
+
+#divDashed {
+    border: dashed;
+    color: green;
+} 
+/*On voit les différents façon de faire des ombres sur css avec les différente valeurs*/
+
