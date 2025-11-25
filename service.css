@@ -1,3 +1,8 @@
+div {
+    width: 150px;
+    height: 50px;
+}
+
 /*div est un sélecteur color est la propriété et la valeur est red ; color:red se nomme une instruction*/
 /*La couleur du texte sera rouge et le la couleur d'arrière plan sera aquamarine*/
 /*la valeur solid permet d'avoir une bordure solide*/
@@ -5,7 +10,9 @@
     color: red;
     background-color: whitesmoke;
     border: solid;
+    width: 520px;
 }
+
 
 /*la valeur double permet d'avoir une bordure en double*/
 #divDouble {
@@ -66,3 +73,4 @@ background-color: whitesmoke;
   top: 65px;
   left: 65px;
 }
+
