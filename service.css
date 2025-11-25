@@ -20,7 +20,7 @@ div {
 border: double;
 color: blue;
 background-color: whitesmoke;
-border-radius: 5px 7px 4px 6px;
+text-align: center;
 }
 
 /*la valeur dotted permet d'avoir une bordure en pointillée,elle est de couleur rouge et 4px d'épaisseur etj'ai aligné le texte au centre*/
@@ -78,3 +78,25 @@ border-radius: 5px 7px 4px 6px;
   left: 65px;
 }
 
+/*On met une bordure avec la propriété border ensuite on arrondis les angles avec border radius enfin il y a le site web https://htmlcolorcodes.com/fr/ pour trouver la couleur qui convient le mieux.Pour faire un dégrader de couleur on utilise la valeur linear-gradient*/
+#pierre {
+    
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+    background: linear-gradient(to bottom right, #2F39BA, #B028A9);
+    width: 400px;
+    height: 400px;
+}
+
+#ombre{
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    background-color: #4EAFDE;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+
+}
+
+    
