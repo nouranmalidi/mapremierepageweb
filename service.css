@@ -1,24 +1,68 @@
 /*div est un sélecteur color est la propriété et la valeur est red ; color:red se nomme une instruction*/
 /*La couleur du texte sera rouge et le la couleur d'arrière plan sera aquamarine*/
-div {
+/*la valeur solid permet d'avoir une bordure solide*/
+#divSolid {
     color: red;
-    background-color: maroon;
+    background-color: whitesmoke;
     border: solid;
 }
 
+/*la valeur double permet d'avoir une bordure en double*/
 #divDouble {
 border: double;
 color: blue;
+background-color: whitesmoke;
+
 }
 
+/*la valeur dotted permet d'avoir une bordure en pointée*/
 #divDotted {
     border: dotted;
     color: yellow;
+    background-color: whitesmoke;
+
 }
 
+/*la valeur dashed permet d'avoir une bordure pointillé*/
 #divDashed {
     border: dashed;
     color: green;
+    background-color: whitesmoke;
+
 } 
 /*On voit les différents façon de faire des ombres sur css avec les différente valeurs*/
 
+/*Code pour faire une fleur*/
+.flower {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.petal {
+  width: 80px;
+  height: 80px;
+  background: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px; /* centre vertical */
+  left: 60px; /* centre horizontal */
+  transform-origin: 40px 40px; /* centre du pétale */
+}
+
+.petal:nth-child(1) { transform: rotate(0deg) translateX(60px); }
+.petal:nth-child(2) { transform: rotate(72deg) translateX(60px); }
+.petal:nth-child(3) { transform: rotate(144deg) translateX(60px); }
+.petal:nth-child(4) { transform: rotate(216deg) translateX(60px); }
+.petal:nth-child(5) { transform: rotate(288deg) translateX(60px); }
+
+.center {
+  width: 70px;
+  height: 70px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
