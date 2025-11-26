@@ -78,7 +78,7 @@ text-align: center;
   left: 65px;
 }
 
-/*On met une bordure avec la propriété border ensuite on arrondis les angles avec border radius enfin il y a le site web https://htmlcolorcodes.com/fr/ pour trouver la couleur qui convient le mieux.Pour faire un dégrader de couleur on utilise la valeur linear-gradient*/
+/*On met une bordure avec la propriété border ensuite on arrondis les angles avec border radius enfin il y a le site web https://htmlcolorcodes.com/fr/ pour trouver la couleur qui convient le mieux. Pour faire un dégrader de couleur on utilise la valeur linear-gradient*/
 #pierre {
     
     border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
@@ -87,6 +87,7 @@ text-align: center;
     height: 400px;
 }
 
+/*La propriété box-shadow permet de faire une ombre a notre figure et text-shadow met de l'ombre sur le texte.*/
 #ombre{
     box-shadow: 6px 6px 0px rgba(0, 0, 0);
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);

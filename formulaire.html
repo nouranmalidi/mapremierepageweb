@@ -1,0 +1,84 @@
+<!--Je crée un formulaire d'inscription-->
+<!Doctype html>
+   
+    <html lang="fr">
+
+        <head>
+           
+            <meta charset="utf-8">
+            <title> Formulaire </title>
+
+        </head>
+
+        <body>
+
+            <h1> Formulaire d'inscription</h1>
+
+            <!--C'est avec la balise forme qu'on peut faire des formulaires-->
+            <form action="#" method="post"> <!--Début du formulaire-->
+
+                 <!--la balise label permet de d'écrire un texte et input type décrit ce qu'il aura comme information sur le formulaire. Le label est l'input sont relié grâce aux attribut for et name.-->
+                 <label for="nom">Nom :</label> <br>
+                 <input type="text" name="nom" id="nom">
+                 <br>
+
+                 <label for="prenom">Prénom(s) :</label> <br>
+                 <input type="text" name="prenom" id="prenom">
+                 <br>
+
+                 <label for="village">Village :</label> <br>
+                 <input type="text" name="village" id="village">
+                 <br>
+
+                 <label for="dateDeNaissance">Date de naissance :</label> <br>
+                 <input type="date" name="dateDeNaissance" id="dateDeNaissance">
+                 <br> <br>
+
+                 <label>Genre :</label>
+                 <input type="radio" name="genre" id="genre"> <!--avec l'attribut radit tu peut cocher qu'un seule proposition-->
+                 <label for="genre"> F </label> 
+
+                 <input type="radio" name="genre"  id="genre">
+                 <label for="genre"> M </label> 
+                 <br> <br> 
+                 
+                 <label >Discipline : </label> <br>
+                 <input type="checkbox" name="ds" id="ds">
+                 <label for="math">MATH</label>
+
+                 <input type="checkbox" name="ds" id="ds"> <!--avec l'attribut checkbox tu peut cocher le nombre de proposition que tu veux-->
+                 <label for="math">Histoire/Géographie</label>
+
+                 <input type="checkbox" name="ds" id="ds">
+                 <label for="math">EPS</label>                 
+
+                 <br><br>
+                 <!--La balise button sert a faire un boutton-->
+                 <button type="submit">Envoyer</button>
+
+            </form> <!--Fin du formulaire-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+
+
+
+
+    </html>
