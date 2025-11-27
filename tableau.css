@@ -1,0 +1,6 @@
+table, th, td {
+  border:1px solid black; /*Pour mettre une bordure continue en noir sur le tableau*/
+  background-color: rgb(7, 114, 114);
+  border-radius: 10px; /*Pour arrondir les angle du tableau de 10 pixels*/
+  padding: 5px; /*J'augmente l'espace intérieur de 5 pixels*/
+}
