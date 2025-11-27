@@ -1,0 +1,53 @@
+/*Avec ce sélecteur on sélectionne tout le code et on le met dans une boite*/
+* {
+    box-sizing: border-box;
+}
+
+/*Mise en forme du header*/
+header {
+    background-color: #666;
+    padding: 20px; /*Pour augmenter l'espace intérieur*/
+    text-align: center; /*Permet d'aligner le texte au centre*/
+    color: white;
+    font-size: 30px;
+}
+
+/*Mise en forme de la section. J'utilise la notion flebox*/
+section {
+    /*Optimise l'affichage sur différents tailles d'écrans*/
+    display: -webkit-flex;
+    display: flex;
+}
+
+/*Mise en forme de la barre de navigation <nav>*/
+nav {
+   -webkit-box-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   background-color: #ccc;
+   padding: 20px;
+}
+
+nav ul {
+list-style-type: none; 
+padding: 0;
+}
+
+/*Mise en forme de la vue article <aticle>*/
+article {
+    -ms-flex: 3;
+    -webkit-flex: 3;
+    flex: 3;
+    background-color: rgb(110, 164, 74);
+    padding: 10px;
+    
+}
+
+/*Mise en place de la footer*/
+footer {
+    text-align: center;
+    background-color: #777;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
