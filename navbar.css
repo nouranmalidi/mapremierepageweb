@@ -39,3 +39,9 @@ nav a:hover{
     color: orange;
     border-bottom: 2px solid gold;
 }
+
+ul {
+    list-style: none;  /*Pour enlever les points de la balise ul*/
+    padding: 0;
+    margin: 0;
+}
